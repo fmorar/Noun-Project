@@ -1,0 +1,29 @@
+.header-wrapper {
+  box-shadow: $shadow-soft;
+}
+
+.header {
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+.header__actions-comm,
+.header__actions-menu {
+  align-items: center;
+  display: flex;
+}
+
+.header__actions-comm {
+  margin-right: 30px;
+
+  @include query(768px) {
+    margin-right: 50px;
+  }
+}
+
+.header__actions-menu {
+
+  @include query(768px) {
+    margin-right: 50px;
+  }
+}

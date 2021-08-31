@@ -1,0 +1,123 @@
+.d-flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.justify-content-start {
+  justify-content: flex-start;
+}
+
+.justify-content-end {
+  justify-content: flex-end;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-around {
+  justify-content: space-around;
+}
+
+.justify-content-evenly {
+  justify-content: space-evenly;
+}
+
+.align-items-start {
+  align-items: flex-start;
+};
+
+.align-items-end {
+  align-items: flex-end;
+};
+
+.align-items-center {
+  align-items: center;
+};
+
+.align-items-baseline {
+  align-items: baseline;
+};
+
+.align-items-stretch {
+  align-items: stretch;
+};
+
+.mobile-show {
+  display: block !important;
+
+  @include query(768px) {
+    display: none !important;
+  }
+}
+
+.mobile-hide {
+  display: none !important;
+  
+  @include query(768px) {
+    display: block !important;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mb-small {
+  margin-bottom: $space-out-small; //20px
+}
+
+.mb-medium {
+  margin-bottom: $space-out-medium; //32px
+}
+
+.mb-large {
+  margin-bottom: $space-out-large; //56px
+}
+
+.mb-x-large {
+  margin-bottom: $space-out-x-large; //160px
+}
+
+.mb-xx-large {
+  margin-bottom: $space-out-xx-large; //240px
+}
+
+.text-width-tiny,
+.text-width-small,
+.text-width-mid,
+.text-width-large {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-width-tiny {
+  max-width: 400px;
+}
+
+.text-width-small {
+  max-width: 500px;
+}
+
+.text-width-mid {
+  max-width: 700px;
+}
+
+.text-width-large {
+  max-width: 900px;
+}

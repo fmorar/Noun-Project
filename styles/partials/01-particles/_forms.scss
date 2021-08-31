@@ -1,0 +1,59 @@
+input,
+textarea {
+  background-color: #E5E5E5;
+  border: none;
+  font-size: 14px;
+  font-family: $font-base;
+  display: block;
+  padding: 10px 0;
+  margin: 5px 0 $space-out-medium 0;
+  width: 100%;
+
+  &:placeholder {
+    color: #9C9C9C;
+  }
+}
+
+input {
+  border-bottom: 1px solid #DADADA;
+  &:focus-visible {
+    outline: none;
+    border-bottom: 1px solid $color-dark;
+  }
+}
+
+textarea {
+  border: 1px solid #DADADA;
+}
+
+label {
+  text-transform: uppercase;
+  font-size: $font-size;
+  font-weight: 700;
+}
+
+input[type="submit"] {
+  border: 2px solid #000000;
+  border-radius: $radius-tertiary;
+  font-weight: 700;
+  margin: 0 auto;
+  padding: 10px 40px;
+  width: auto;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  display: inline-block;
+  margin: 0 $space-out-small $space-out-medium 0;
+  width: 25px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;         
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}

@@ -1,0 +1,78 @@
+.btn {
+  border-radius: $radius-principal;
+  border: none;
+  box-shadow: $shadow-soft;
+  display: block;
+  font-family: $font-base;
+  font-size: 16px;
+  padding: 8px;
+  border: 1px solid transparent;
+  width: max-content;
+  
+  &:hover {
+    border: none;
+    transition: background .5s;
+  }
+}
+
+.btn-principal {
+  background: linear-gradient(87.05deg, #ADE9F1 1.78%, #634CFF 98.19%);
+  border-radius: $radius-principal;
+  border: transparent;
+  box-shadow: $shadow-soft;
+  color: #fff;
+  padding: 10px;
+
+  &:hover {
+    background: $color-base;
+    color: #fff;
+    transition: background 1.2s;
+  }
+}
+
+.btn-secondary {
+  background: transparent;
+  border-radius: $radius-secondary;
+  box-shadow: none;
+  padding: 10px 30px;
+}
+
+.btn-secondary--b {
+  border: 2px solid #fff;
+  color: #fff;
+
+  &:hover {
+    background: #fff;
+    color: #000;
+    border: 2px solid #000;
+  }
+}
+
+.btn-secondary--w {
+  border: 2px solid #000;
+  color: #000;
+
+  &:hover {
+    background: #000;
+    color: #fff;
+    border: 2px solid #fff;
+  }
+}
+
+.btn--go {
+  padding-left: 60px;
+  position: relative;
+  padding-right: 25px;
+
+  &::before {
+    background-image: url(../../../pages/images/arrow-right.svg);
+    background-repeat: no-repeat;
+    content: "";
+    height: 15px;
+    left: 10%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 18px;
+  }
+}

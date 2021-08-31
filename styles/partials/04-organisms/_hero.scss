@@ -1,0 +1,57 @@
+.hero {
+  padding: 70px 0 $space-medium 0;
+
+  .btn {
+    margin: 0 auto;
+  }
+
+  @include query(768px) {
+    display: flex;
+    padding: 140px 0 $space-medium 0;
+    
+    .btn {
+      margin: 0;
+    }
+  }
+
+}
+
+.hero__title {
+  font-size: 54px;
+  line-height: 45px;
+  margin-bottom: 6rem;
+  padding-top: 30px;
+
+  span {
+    display: block;
+    font-family: $font-contrast;
+    font-size: 30px;
+  }
+
+  @include query(768px) {
+    font-size: 140px;
+    line-height: 130px;
+
+    span {
+      font-size: 60px;
+    }
+  }
+}
+
+.hero__title--max {
+  font-size: 80px;
+  line-height: 75px;
+
+  span {
+    font-size: 60px;
+  }
+
+  @include query(768px) {
+    font-size: 200px;
+    line-height: 130px;
+
+    span {
+      font-size: 120px;
+    }
+  }
+}

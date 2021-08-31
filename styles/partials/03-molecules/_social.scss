@@ -1,0 +1,36 @@
+.social {
+  display: none;
+
+  @include query(992px) {
+    display: flex;
+  }
+
+  a {
+    border: none;
+    display: block;
+  }
+}
+
+.social__text {
+  transform: rotate(-90deg);
+  position: relative;
+
+  &::before,
+  &::after {
+    background-color: #000;
+    content: '';
+    height: 1px;
+    position: absolute;
+    top:50%;
+    transform: translateX(-50%);
+    width: 40px;
+  }
+  
+  &::before {
+    right: 110px;
+  }
+
+  &::after {
+    left: 150px;
+  }
+}

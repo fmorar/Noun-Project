@@ -1,0 +1,35 @@
+//fonts
+$font-base: 'Montserrat', sans-serif;
+$font-contrast: 'Londrina Outline', cursive;
+$font-size: 16px;
+
+//colors
+$color-base : #634CFF;
+$color-contrast: #AFEBF1;
+$color-accent: #91ABF7;
+$color-dark: #1C1C1C ;  
+
+// Inside components
+$space-base: 1rem; 
+$space-small: 2rem; //32px
+$space-medium: 4rem; // 56px
+$space-large: 6rem; // 100px
+$space-x-large:10rem; // 160px
+$space-xx-large:12rem; // 192px
+
+// Between components
+$space-out-small: 1.25rem; // 20px
+$space-out-medium: 2rem; // 32px
+$space-out-large: 4rem; // 56px
+$space-out-x-large: 10rem; // 160px
+$space-out-xx-large: 15rem; // 240px
+
+// border radius 
+$radius-principal: 10px;
+$radius-secondary: 21.5px;
+$radius-tertiary: 30px;
+
+// shadows 
+$shadow-soft:  0px 0px 15px rgba(0, 0, 0, 0.1);
+$shadow-mid:  0px 2px 20px #000;
+$shadow-hard:  5px 5px 15px #000;

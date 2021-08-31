@@ -1,0 +1,56 @@
+// Normalize
+// ==========================================================================
+// Correct the font size and margin on `h1` elements within `section` and
+// `article` contexts in Chrome, Firefox, and Safari.
+// el sitio tienes 12 font size que parence de alguna forma titular, que te parece sin estandarizamos? 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-base;
+  font-weight: 700;
+  color: #000;
+  margin: 0;
+}
+
+h1 {
+  color: $color-base;
+  font-size: calc(#{$font-size} * 3);
+  
+  @include query(624px) {
+    font-size: 140px;
+  }
+}
+
+h2 {
+  font-size: calc(#{$font-size} * 2.2);
+  
+  @include query(400px) {
+    font-size: 72px;
+  }
+}
+
+h3 {
+  font-size: calc(#{$font-size} * 1.8);
+  
+  @include query(400px) {
+    font-size: 60px;
+  }
+}
+
+h4 {
+  font-size: 48px;
+}
+
+h5 {
+  font-size: 30px;
+}
+
+h6 {
+  font-size: 28px;
+}
+
+
+

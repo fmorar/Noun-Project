@@ -1,0 +1,29 @@
+.category-card {
+  border-radius: $radius-principal;
+  box-shadow: $shadow-soft;
+  margin-left: $space-out-small;
+  margin-right: $space-out-small;
+  padding: $space-small 0;
+  width: 100%;
+
+  @include query(768px) {
+    margin-left: 0;
+    margin-right: 0;
+    width: 48%;
+  }
+
+  @include query(1024px) {
+    width: 22%;
+  }
+}
+
+.category-card__title {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.category-card__img {
+  height: 200px !important;
+  object-fit: cover;
+  padding: 10px !important;
+}
