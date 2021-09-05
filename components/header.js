@@ -8,7 +8,7 @@ import commerce from '../pages/images/commerce.svg'
 const Header = () => {
   return (
     <div className='header-wrapper'>
-      <header className='d-flex  justify-content-between align-items-center header'>
+      <header className='container d-flex justify-content-between align-items-center header'>
         <div>
           <Link href={'/'}>
             <a className='link-clear header__logo'>

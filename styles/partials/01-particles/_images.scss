@@ -12,7 +12,9 @@ svg:not(:root) {
 
 //images responsive
 img {
+  height: auto !important;
+  max-height: none !important;
+  max-width: 100% !important;
+  min-height: auto !important;
   width: inherit; /*IE8*/
-  max-width: 100%;
-  height: auto;
 }

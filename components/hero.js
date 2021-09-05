@@ -11,7 +11,7 @@ const Hero = ({className, spanTop, spanBot, text, page}) => {
   }
   return (
     <>
-      <div className='hero'>
+      <div className='container hero'>
         <Social/>
         <div>
           <h1 className={`${className} ${titleMax}`}>

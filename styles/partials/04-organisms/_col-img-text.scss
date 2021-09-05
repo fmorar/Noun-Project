@@ -1,0 +1,36 @@
+.col-img-text {
+  
+  @include query(768px) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.col-img-text__text,
+.col-img-text__image {
+  width: 100%;
+
+  @include query(768px) {
+    width: 49%;
+  }
+}
+
+.col-img-text__img {
+  margin: 0 auto;
+
+  div {
+    display: flex !important;
+    justify-content: center !important;
+  }
+}
+
+.col-img-text__image--left {
+  
+  @include query(768px) {
+    padding-left: 20% !important;
+  }
+}
+
+.col-img-text__image--right {
+  padding-right: 20% !important;
+}
