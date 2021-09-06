@@ -1,0 +1,38 @@
+.counter {
+  display: none;
+  justify-content:space-between;
+  padding-bottom: $space-medium;
+  position: relative;
+
+  @include query(768px) {
+    display: flex;
+  }
+
+  &::after {
+    background-color: #000;
+    content: "";
+    height: 1px;
+    position: absolute;
+    width: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+  }
+}
+
+.counter__category {
+  width: calc(100%/5);
+
+  p {
+    font-family: $font-contrast;
+    font-size: 140px;
+    line-height: 140px;
+    margin: 0;
+    text-align: center;
+  }
+
+  span {
+    display: block;
+    text-align: center;
+  }
+}

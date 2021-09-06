@@ -4,6 +4,7 @@ import ColTwo from './col-img-text'
 import ImageTools from '../pages/images/image-tools.png'
 import ImagePc from '../pages/images/image-pc.png'
 import SectionBlack from './section-black'
+import Counter from './counter'
 
 const text = `We design new experience from physical and digital products and the company overall. We create brands that are attached to people, new, useful and unique products.
 We believe in business and help invest in design with multiple returns. We work so that our customers develop faster than competitors.`
@@ -47,12 +48,13 @@ const Landing = () => {
         <p className='text-width-small mb-large'>
           In Noun Project work young professionals who are interested in modern culture, new products, fashion trends and approaches to create design. Our goal is to grow a professional community of designers and art directors.
         </p>
-        <div className='d-flex justify-content-center'>
+        <div className='d-flex justify-content-center mb-x-large'>
           <Button className="btn btn-secondary btn-secondary--w" href="/" >
             Get to know us!
           </Button>
         </div>
       </div>
+      <Counter projects='500' designers='500' years='500' website='500' aplications/>
     </>
   )
 };
