@@ -1,0 +1,40 @@
+.social-bot {
+  @include query(768px) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.social-bot__left,
+.social-bot__right {
+  
+  @include query(768px) {
+    width: 40%;
+  }
+}
+
+.social-bot__right {
+  p {
+    font-size: 24px;
+  }
+}
+
+.countries {
+  display: flex;
+  align-items: center;
+
+}
+
+.country {
+  font-size: 20px;
+  width: 50px;
+  height: 50px;
+  font-weight: bold;
+  margin-right: 30px;
+}
+
+.country--active {
+  background-color: #000;
+  color: #fff;
+  border-radius: 50%;
+}
