@@ -1,5 +1,4 @@
 import PropTypes from "prop-types"
-// import Image from 'next/image'
 
 const SocialIcons = ({className, social}) => {
   console.log(className, social)
@@ -8,7 +7,9 @@ const SocialIcons = ({className, social}) => {
       {
         social.map((item, index) => (
           <div key={index}>
-            <p>{item.img.src}</p>
+            <a href={item.href} className='link-clear'>
+              <img src={item.img.src} alt={item.alt}/>
+            </a>
           </div>
         ))
       }

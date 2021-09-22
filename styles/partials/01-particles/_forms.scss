@@ -1,6 +1,6 @@
 input,
 textarea {
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
   border: none;
   font-size: 14px;
   font-family: $font-base;
@@ -10,12 +10,12 @@ textarea {
   width: 100%;
 
   &:placeholder {
-    color: #9C9C9C;
+    color: #9c9c9c;
   }
 }
 
 input {
-  border-bottom: 1px solid #DADADA;
+  border-bottom: 1px solid #dadada;
   &:focus-visible {
     outline: none;
     border-bottom: 1px solid $color-dark;
@@ -23,7 +23,7 @@ input {
 }
 
 textarea {
-  border: 1px solid #DADADA;
+  border: 1px solid #dadada;
 }
 
 label {
@@ -50,10 +50,41 @@ input[type="radio"] {
 
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
-  -webkit-appearance: none;         
+  -webkit-appearance: none;
   margin: 0;
 }
 
 input[type="number"] {
   -moz-appearance: textfield;
+}
+
+.footer {
+  .news-letter {
+    position: relative;
+
+    &::after {
+      background-image: url(../../../pages/images/send.png);
+      background-repeat: no-repeat;
+      content: "";
+      height: 18px;
+      right: 18px;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 18px;
+    }
+  }
+
+  input {
+    background: rgba(255, 255, 255, 0.5);
+    color: #fff;
+    padding: 8px 50px 8px $space-base;
+    border-radius: $radius-principal;
+    border-bottom: none;
+    position: relative;
+
+    &::placeholder {
+      color: #fff;
+    }
+  }
 }

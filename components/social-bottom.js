@@ -37,7 +37,7 @@ const SocialBot = () => {
   ]
 
   return (
-    <section className='container social-bot'>
+    <section className='container  mb-large social-bot'>
       <div className='social-bot__left'>
         <h5 className='mb-small'>
         Wanna build something great together?
@@ -48,7 +48,7 @@ const SocialBot = () => {
         <p className='mb-large'>
           hello@nounproject.com.ar
         </p>
-        <SocialIcons className='pepe' social={socialEl}/>
+        <SocialIcons className='social-icons-color' social={socialEl}/>
       </div>
       <div className='social-bot__right'>
         <p>
