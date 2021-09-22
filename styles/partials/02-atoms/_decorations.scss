@@ -1,0 +1,76 @@
+.decoration-top-left-w {
+  &:before {
+    background-image: url(../../../pages/images/dec-top-left-w.svg);
+    background-repeat: no-repeat;
+    content: "";
+    height: 100px;
+    left: 5%;
+    position: absolute;
+    top: 10%;
+    width: 100px;
+    background-size: contain;
+
+    @include query(992px) {
+      height: 300px;
+      width: 200px;
+      top: 20%;
+      left: 10%;
+    }
+  }
+}
+
+.decoration-top-right-w {
+  &:after {
+    background-image: url(../../../pages/images/dec-top-right-w.svg);
+    background-repeat: no-repeat;
+    content: "";
+    height: 100px;
+    right: 5%;
+    position: absolute;
+    top: 10%;
+    width: 90px;
+    background-size: contain;
+
+    @include query(992px) {
+      height: 300px;
+      width: 150px;
+      right: 10%;
+      top: 20%;
+    }
+  }
+}
+
+.decoration-top-left-b {
+  &:before {
+    background-image: url(../../../pages/images/dec-top-left-b.svg);
+    background-repeat: no-repeat;
+    content: "";
+    height: 40px;
+    left: -5%;
+    position: absolute;
+    top: -5%;
+    width: 40px;
+    background-size: contain;
+
+    @include query(992px) {
+      height: 70px;
+      width: 70px;
+      right: 10%;
+      top: -20%;
+    }
+  }
+}
+
+.decoration-bot-right-b {
+  &:after {
+    background-image: url(../../../pages/images/dec-bot-right-b.svg);
+    background-repeat: no-repeat;
+    content: "";
+    height: 200px;
+    position: absolute;
+    width: 150px;
+    bottom: -10%;
+    right: -10%;
+  }
+}
+

@@ -1,13 +1,13 @@
 import PropTypes from "prop-types"
 import Image from "next/image";
 
-const SectionBlack = ({title, decoration, alt, children}) => {
+const SectionBlack = ({className, title, decoration, alt, children}) => {
   let space;
 
   if (decoration != '') {
-    space = 'sectionB-black mb-xx-large'
+    space = `section-black mb-xx-large ${className}`
   } else {
-    space = 'sectionB-black mb-x-large'
+    space = `section-black mb-x-large ${className}`
   }
 
   return (
@@ -16,7 +16,7 @@ const SectionBlack = ({title, decoration, alt, children}) => {
         {title}
       </h4>
       {children}
-      <div className='sectionB-black__dec'>
+      <div className='section-black__dec'>
         <Image src={decoration} alt={alt}/>
       </div>
     </section>

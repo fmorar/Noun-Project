@@ -37,7 +37,7 @@ const SocialBot = () => {
   ]
 
   return (
-    <section className='container  mb-large social-bot'>
+    <section className='container  mb-large decoration-top-left-b decoration-bot-right-b social-bot'>
       <div className='social-bot__left'>
         <h5 className='mb-small'>
         Wanna build something great together?

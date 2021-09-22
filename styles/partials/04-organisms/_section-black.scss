@@ -1,4 +1,4 @@
-.sectionB-black {
+.section-black {
   background-color: #000;
   padding-bottom: $space-large;
   padding-top: $space-large;
@@ -12,12 +12,12 @@
   }
 }
 
-.sectionB-black__dec {
-  position: absolute;
+.section-black__dec {
+  bottom: -130px;
   max-width: 300px;
-  bottom: -60%;
-  left: 35%;
-  transform: translateY(-50%);
+  position: absolute;
+  right: 50%;
+  transform: translateX(50%);
   
   @include query(992px) {
     max-width: 400px;
