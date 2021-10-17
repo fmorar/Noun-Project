@@ -1,7 +1,7 @@
 import PropTypes from "prop-types"
 
 const SocialIcons = ({className, social}) => {
-  console.log(className, social)
+
   return (
     <div className={className}>
       {
