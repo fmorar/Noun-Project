@@ -1,0 +1,18 @@
+.label-text {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.border-none {
+    border: none;
+}
+
+@media (max-width: 768px) {
+    .flex-wrap-reverse-mobile {
+        flex-wrap: wrap-reverse;
+    }
+    .w-80-mobile {
+        width: 80%;
+    }
+}
