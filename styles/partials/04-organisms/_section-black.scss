@@ -12,6 +12,13 @@
   }
 }
 
+.section-white {
+  background-color: #fff;
+  padding-bottom: $space-large;
+  padding-top: $space-large;
+  position: relative;
+}
+
 .section-black__dec {
   bottom: -130px;
   max-width: 300px;

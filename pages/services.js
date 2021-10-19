@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Layout from '../components/layout'
 import Hero from '../components/hero'
-import Work from '../components/Work'
+import Services from '../components/services'
 
 const Index = () => {
   return (
@@ -11,7 +11,7 @@ const Index = () => {
           <title>Services</title>
         </Head>
         <Hero className='hero__title' spanBot='noun project' text='Services'/>
-        <Work/>
+        <Services />
       </Layout>
     </>
   )

@@ -5,14 +5,14 @@ const SectionBlack = ({className, title, decoration, alt, children}) => {
   let space;
 
   if (decoration != '') {
-    space = `section-black mb-xx-large ${className}`
+    space = `section-white ${className}`
   } else {
-    space = `section-black mb-x-large ${className}`
+    space = `section-white mb-medium ${className}`
   }
 
   return (
     <section className={space}>
-      <h4 className='text-center mb-small'>
+      <h4 className='text-center mb-small container'>
         {title}
       </h4>
       {children}

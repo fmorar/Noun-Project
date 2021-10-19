@@ -19,9 +19,51 @@
   }
 }
 
+.decoration-top-left-w-white {
+  &:before {
+    background-image: url(../../../pages/images/dec-top-left-w-white.svg);
+    background-repeat: no-repeat;
+    content: "";
+    height: 100px;
+    left: 5%;
+    position: absolute;
+    top: 10%;
+    width: 100px;
+    background-size: contain;
+
+    @include query(992px) {
+      height: 200px;
+      width: 200px;
+      top: 20%;
+      left: 10%;
+    }
+  }
+}
+
 .decoration-top-right-w {
   &:after {
     background-image: url(../../../pages/images/dec-top-right-w.svg);
+    background-repeat: no-repeat;
+    content: "";
+    height: 100px;
+    right: 5%;
+    position: absolute;
+    top: 10%;
+    width: 90px;
+    background-size: contain;
+
+    @include query(992px) {
+      height: 300px;
+      width: 150px;
+      right: 10%;
+      top: 20%;
+    }
+  }
+}
+
+.decoration-top-right-w-white {
+  &:after {
+    background-image: url(../../../pages/images/dec-top-right-w-white.svg);
     background-repeat: no-repeat;
     content: "";
     height: 100px;

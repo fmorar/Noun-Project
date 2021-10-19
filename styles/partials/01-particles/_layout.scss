@@ -138,6 +138,11 @@
   text-align: center;
 }
 
+.text-with-border {
+  -webkit-text-stroke: 1px black;
+  color: #fff;
+}
+
 .text-width-tiny,
 .text-width-small,
 .text-width-mid,
@@ -160,4 +165,22 @@
 
 .text-width-large {
   max-width: 900px;
+}
+
+// Color
+
+.text-white {
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .text-left-mobile {
+    text-align: left;
+  }
+  .w-100-mobile {
+    width: 100%;
+  }
+  .w-50-mobile {
+    width: 50%;
+  }
 }
