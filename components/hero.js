@@ -27,14 +27,6 @@ const Hero = ({className, spanTop, spanBot, text, page}) => {
           }
         </div>
       </div>
-      {
-        page == 'landing' ? 
-        <div className='d-flex justify-content-center mb-large'>
-          <Image src={arrow} alt='view more' />
-        </div>
-        :
-        null
-      }
     </>
   );
 };
