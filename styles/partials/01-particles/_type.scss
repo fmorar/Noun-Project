@@ -99,3 +99,13 @@ ul {
 li {
   padding-bottom: $space-base;
 }
+
+.outline {
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: $color-base;
+  color: transparent;
+}
+
+.outline-black {
+  text-stroke-color: black;
+} 

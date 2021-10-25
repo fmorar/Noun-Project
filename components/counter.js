@@ -29,31 +29,31 @@ const Counter = ({projects, designers, years, website, aplications}) => {
     <>
       <div className="container mb-x-large counter">
         <div className='counter__category'>
-          <p akhi={projects}>
+          <p className={'outline outline-black'} akhi={projects}>
             197
           </p>
           <span>Digital Projects</span>
         </div>
         <div className='counter__category'>
-          <p akhi={designers}>
+          <p className={'outline outline-black'} akhi={designers}>
             7
           </p>
           <span>Designers</span>
         </div>
         <div className='counter__category'>
-          <p akhi={years}>
+          <p className={'outline outline-black'} akhi={years}>
             6
           </p>
           <span>Years of work</span>
         </div>
         <div className='counter__category'>
-          <p akhi={website}>
+          <p className={'outline outline-black'} akhi={website}>
             21
           </p>
           <span>Website Pages</span>
         </div>
         <div className='counter__category'>
-          <p akhi={website}>
+          <p className={'outline outline-black'} akhi={website}>
             33
           </p>
           <span>Mobile Aplications</span>

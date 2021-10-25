@@ -15,7 +15,7 @@ const Hero = ({className, spanTop, spanBot, text, page}) => {
         <Social/>
         <div>
           <h1 className={`${className} ${titleMax}`}>
-            <span>{spanTop}</span> {text} <span className='span-bot'>{spanBot}</span>
+            <span className={'outline outline-base'}>{spanTop}</span> {text} <span className='span-bot'>{spanBot}</span>
           </h1>
           {
             page == 'landing' ? 
