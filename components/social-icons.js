@@ -13,7 +13,7 @@ const SocialIcons = ({className, social}) => {
           </div>
         ))
       }
-    </div>  
+    </div>
   );
 }
 
