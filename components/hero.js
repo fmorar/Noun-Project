@@ -35,7 +35,7 @@ Hero.propTypes = {
   className: PropTypes.string,
   spanTop: PropTypes.string,
   spanBot: PropTypes.string,
-  text: PropTypes.element.isRequired,
+  text: PropTypes.string.isRequired,
   page: PropTypes.string
 };
 

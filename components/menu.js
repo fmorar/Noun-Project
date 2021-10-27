@@ -17,27 +17,27 @@ const Menu = ({className}) => {
     {
       img: tw,
       alt: 'tw',
-      href: '/'
+      href: 'http://localhost:3000/'
     },
     {
       img: fb,
       alt: 'fb',
-      href: '/'
+      href: 'http://localhost:3000/'
     },
     {
       img: ig,
       alt: 'ig',
-      href: '/'
+      href: 'http://localhost:3000/'
     },
     {
       img: be,
       alt: 'be',
-      href: '/'
+      href: 'http://localhost:3000/'
     },
     {
       img: db,
       alt: 'db',
-      href: '/'
+      href: 'http://localhost:3000/'
     }
   ]
 

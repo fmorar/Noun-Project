@@ -25,7 +25,7 @@ const SectionBlack = ({className, title, decoration, alt, children}) => {
 
 SectionBlack.propTypes = {
   title: PropTypes.string.isRequired,
-  decoration: PropTypes.string,
+  decoration: PropTypes.object,
   alt: PropTypes.string,
   children: PropTypes.node
 };

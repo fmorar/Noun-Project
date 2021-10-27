@@ -18,7 +18,8 @@ const SocialIcons = ({className, social}) => {
 }
 
 SocialIcons.propTypes = {
-  className: PropTypes.string
+  className: PropTypes.string,
+  social:PropTypes.array
 };
 
 SocialIcons.defaultProps = {

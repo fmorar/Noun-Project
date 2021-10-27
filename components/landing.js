@@ -15,7 +15,6 @@ const text = `We design new experience from physical and digital products and th
 We believe in business and help invest in design with multiple returns. We work so that our customers develop faster than competitors.`
 
 const Landing = () => {
-
   const [open, setOpen] = useState();
 
   const acordion = () => {

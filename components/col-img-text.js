@@ -25,13 +25,18 @@ const ColTwo = ({title, text, src, alt, imageSpace, direction}) => {
 ColTwo.propTypes = {
   title: PropTypes.string,
   text: PropTypes.string,
-  src: PropTypes.string,
+  src: PropTypes.object,
   alt: PropTypes.string,
   imageSpace: PropTypes.string,
   direction: PropTypes.string
 };
 
 ColTwo.defaultProps = {
+  title: '',
+  text: '',
+  src: '',
+  alt: '',
+  imageSpace: '',
   direction: ''
 };
 
