@@ -20,13 +20,13 @@ const StyleGuide = () => {
           Forms
         </h2>
         <form>
-          <label for="fname">Name</label>
+          <label htmlFor="fname">Name</label>
           <input type="text" placeholder="Jonn Smith" id="fname" name="fname"/>
-          <label for="email">Email</label>
+          <label htmlFor="email">Email</label>
           <input type="email" placeholder="email@gmail.com" id="email" name="email"/>
-          <label for="phone">phone number</label>
+          <label htmlFor="phone">phone number</label>
           <input type="tel" placeholder="506 888888" id="phone" name="phone"/>
-          <label for="w3review">Review of W3Schools:</label>
+          <label htmlFor="w3review">Review of W3Schools:</label>
           <textarea id="w3review" placeholder="Write about your project" name="w3review" rows="4" cols="50">
           </textarea>
           <input type="submit" value="Send"/>

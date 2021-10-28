@@ -5,3 +5,5 @@ Noun Project Website
 <code>npm i</code>
 <h3>Run Dev environment</h3>
 <code>npm run dev</code>
+<h3>Run Build</h3>
+<code>npm run build</code>

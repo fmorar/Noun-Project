@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Layout from '../components/layout'
 import Hero from '../components/hero'
-import Work from '../components/Work'
+import Work from '../components/work'
 
 const Index = () => {
   return (
