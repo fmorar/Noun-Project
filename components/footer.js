@@ -13,27 +13,27 @@ const Footer = () => {
     {
       img: tw,
       alt: 'tw',
-      href: '/'
+      href: 'https://facebook.com/'
     },
     {
       img: fb,
       alt: 'fb',
-      href: '/'
+      href: 'https://facebook.com/'
     },
     {
       img: ig,
       alt: 'ig',
-      href: '/'
+      href: 'https://facebook.com/'
     },
     {
       img: be,
       alt: 'be',
-      href: '/'
+      href: 'https://facebook.com/'
     },
     {
       img: db,
       alt: 'db',
-      href: '/'
+      href: 'https://facebook.com/'
     }
   ]
 
@@ -46,7 +46,7 @@ const Footer = () => {
           </div>
           <div>
             <span className='d-block mb-small'>
-              <Link href='/'>
+              <Link href='http://localhost:3000/'>
                 <a className='link-clear'>
                   Quality Policy | Privacy Policy Terms and Conditions
                 </a>
@@ -58,27 +58,27 @@ const Footer = () => {
           </div>
         </div>
         <div className='footer__grid-nav'>
-          <Link href='/'>
+          <Link href='http://localhost:3000/'>
             <a className='link-clear'>
               Work
             </a>
           </Link>
-          <Link href='/'>
+          <Link href='http://localhost:3000/'>
             <a className='link-clear'>
               Services
             </a>
           </Link>
-          <Link href='/'>
+          <Link href='http://localhost:3000/'>
             <a className='link-clear'>
               About Us
             </a>
           </Link>
-          <Link href='/'>
+          <Link href='http://localhost:3000/'>
             <a className='link-clear'>
               Join
             </a>
           </Link>
-          <Link href='/'>
+          <Link href='http://localhost:3000/'>
             <a className='link-clear'>
               Contact Us
             </a>

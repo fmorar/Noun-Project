@@ -1,3 +1,4 @@
+import PropTypes from "prop-types"
 import Button from './buttons';
 
 const ContactForm = () => {

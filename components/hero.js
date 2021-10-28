@@ -15,7 +15,7 @@ const Hero = ({className, spanTop, spanBot, text, page}) => {
         <Social/>
         <div>
           <h1 className={`${className} ${titleMax}`}>
-            <span>{spanTop}</span> {text} <span className='span-bot'>{spanBot}</span>
+            <span className={'outline outline-base'}>{spanTop}</span> {text} <span className='span-bot'>{spanBot}</span>
           </h1>
           {
             page == 'landing' ? 
@@ -27,14 +27,6 @@ const Hero = ({className, spanTop, spanBot, text, page}) => {
           }
         </div>
       </div>
-      {
-        page == 'landing' ? 
-        <div className='d-flex justify-content-center mb-large'>
-          <Image src={arrow} alt='view more' />
-        </div>
-        :
-        null
-      }
     </>
   );
 };
@@ -43,7 +35,7 @@ Hero.propTypes = {
   className: PropTypes.string,
   spanTop: PropTypes.string,
   spanBot: PropTypes.string,
-  text: PropTypes.element.isRequired,
+  text: PropTypes.string.isRequired,
   page: PropTypes.string
 };
 

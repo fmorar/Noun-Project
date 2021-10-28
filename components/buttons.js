@@ -15,7 +15,7 @@ const Button = ({ className, href, children, target }) => (
 Button.propTypes = {
   className: PropTypes.string,
   href: PropTypes.string,
-  children: PropTypes.element.isRequired,
+  children: PropTypes.string.isRequired,
   target: PropTypes.string
 };
 

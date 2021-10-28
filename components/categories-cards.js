@@ -6,64 +6,59 @@ import designUx from '../pages/images/design-ux.png'
 import designBrand from '../pages/images/design-brand.png'
 import designMarketing from '../pages/images/design-marketing.png'
 
+const cards = [
+  {
+    alt: '',
+    href: '/',
+    src: designDigital,
+    title: 'Digital Design'
+  },
+  {
+    alt: '',
+    href: '/',
+    src: designUx,
+    title: 'UX | UI Designn'
+  },
+  {
+    alt: '',
+    href: '/',
+    src: designBrand,
+    title: 'Brand Design'
+  },
+  {
+    alt: '',
+    href: '/',
+    src: designMarketing,
+    title: 'Marketing Design'
+  }
+]
+
 const CategoriesCards = ({href}) => {
   return (
     <div className='d-flex flex-wrap justify-content-between mb-medium'>
-      <Link href={href}>
-        <a className='link-clear mb-large category-card'>
-          <div>
-            <Image className='category-card__img' src={designDigital} alt='Design Digital'/>
-            <p className=' mb-large category-card__title'>
-              Digital Design
-            </p>
-          </div>
-        </a>
-      </Link>
-      <Link href={href}>
-        <a className='link-clear mb-large category-card'>
-          <div>
-            <Image className='category-card__img' src={designDigital} alt='Design Digital'/>
-            <p className=' mb-large category-card__title'>
-              Digital Design
-            </p>
-          </div>
-        </a>
-      </Link>
-      <Link href={href}>
-        <a className='link-clear mb-large category-card'>
-          <div>
-            <Image className='category-card__img' src={designDigital} alt='Design Digital'/>
-            <p className=' mb-large category-card__title'>
-              Digital Design
-            </p>
-          </div>
-        </a>
-      </Link>
-      <Link href={href}>
-        <a className='link-clear mb-large category-card'>
-          <div>
-            <Image className='category-card__img' src={designDigital} alt='Design Digital'/>
-            <p className=' mb-large category-card__title'>
-              Digital Design
-            </p>
-          </div>
-        </a>
-      </Link>
+      {
+        cards.map((item, index) => (
+          <Link href={item.href} key={index}>
+            <a className='link-clear mb-large category-card'>
+              <Image className='category-card__img' src={item.src} alt={item.alt}/>
+              <p className=' mb-large category-card__title'>
+                {item.title}
+              </p>
+            </a>
+          </Link>
+        ))
+      }
+      
     </div>
   )
 }
 
 CategoriesCards.propTypes = {
-  className: PropTypes.string,
   href: PropTypes.string,
-  children: PropTypes.element.isRequired,
-  target: PropTypes.string
 };
 
 CategoriesCards.defaultProps = {
-  className: '',
   href: '',
-  target: '_self'
 };
 
 export default CategoriesCards;

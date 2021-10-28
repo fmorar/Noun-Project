@@ -1,7 +1,7 @@
 import PropTypes from "prop-types"
 
 const SocialIcons = ({className, social}) => {
-  console.log(className, social)
+
   return (
     <div className={className}>
       {
@@ -13,12 +13,13 @@ const SocialIcons = ({className, social}) => {
           </div>
         ))
       }
-    </div>  
+    </div>
   );
 }
 
 SocialIcons.propTypes = {
-  className: PropTypes.string
+  className: PropTypes.string,
+  social:PropTypes.array
 };
 
 SocialIcons.defaultProps = {

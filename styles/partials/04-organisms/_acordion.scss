@@ -1,0 +1,29 @@
+.acordion-icon-open {
+  transition: transform 0.5s;
+  transform: rotate(180deg);
+}
+
+.acordion-icon-close {
+  transition: transform 0.5s;
+  transform: rotate(0deg);
+  animation-name: acordion-icon-close;
+  animation-timing-function: linear;
+}
+
+@keyframes acordion-icon-close {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-100px); }
+  100% { transform: translateY(0); }
+}
+
+.acordion-panel {
+  height: 0;
+  overflow: hidden;
+  transition: all 1s;
+  opacity: 0;
+}
+
+.acordion-panel--open {
+  height: 100%;
+  opacity: 1;
+}

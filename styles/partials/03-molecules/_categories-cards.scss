@@ -15,6 +15,10 @@
   @include query(1024px) {
     width: 22%;
   }
+
+  div {
+    height: 100px;
+  }
 }
 
 .category-card__title {
@@ -23,7 +27,6 @@
 }
 
 .category-card__img {
-  height: 200px !important;
-  object-fit: cover;
+  object-fit: contain;
   padding: 10px !important;
 }

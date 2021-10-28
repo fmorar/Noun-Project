@@ -12,27 +12,27 @@ const SocialBot = () => {
     {
       img: tw,
       alt: 'tw',
-      href: '/'
+      href: 'https://facebook.com/'
     },
     {
       img: fb,
       alt: 'fb',
-      href: '/'
+      href: 'https://facebook.com/'
     },
     {
       img: ig,
       alt: 'ig',
-      href: '/'
+      href: 'https://facebook.com/'
     },
     {
       img: be,
       alt: 'be',
-      href: '/'
+      href: 'https://facebook.com/'
     },
     {
       img: db,
       alt: 'db',
-      href: '/'
+      href: 'https://facebook.com/'
     }
   ]
 

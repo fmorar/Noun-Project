@@ -1,5 +1,6 @@
 .hero {
-  padding: 70px 0 $space-medium 0;
+  padding: 70px 15px $space-medium 15px;
+  transition: all 1s;
 
   .btn {
     margin: 0 auto;
@@ -7,7 +8,7 @@
 
   @include query(768px) {
     display: flex;
-    padding: 140px 0 $space-medium 0;
+    padding: 100px 0 $space-medium 0;
     
     .btn {
       margin: 0;
