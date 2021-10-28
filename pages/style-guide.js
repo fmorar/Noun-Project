@@ -3,14 +3,18 @@ import Link from 'next/link'
 import Layout from '../components/layout'
 import Button from '../components/buttons'
 import Social from '../components/social'
+import Counter from '../components/counter';
+
 
 const StyleGuide = () => {
+  
   return (
     <Layout>
       <Head>
         <title>Style Guide</title>
       </Head>
       <h1>Style Guide</h1>
+      <Counter number={197}/>
       <div>
         <h2>
           Forms
