@@ -58,27 +58,27 @@ const Footer = () => {
           </div>
         </div>
         <div className='footer__grid-nav'>
-          <Link href='/'>
+          <Link href='/our-work'>
             <a className='link-clear'>
               Work
             </a>
           </Link>
-          <Link href='/'>
+          <Link href='/services'>
             <a className='link-clear'>
               Services
             </a>
           </Link>
-          <Link href='/'>
+          <Link href='/about-us'>
             <a className='link-clear'>
               About Us
             </a>
           </Link>
-          <Link href='/'>
+          <Link href='/join'>
             <a className='link-clear'>
               Join
             </a>
           </Link>
-          <Link href='/'>
+          <Link href='/contact-us'>
             <a className='link-clear'>
               Contact Us
             </a>

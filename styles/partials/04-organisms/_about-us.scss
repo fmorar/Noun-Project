@@ -1,0 +1,41 @@
+.cards-about-us {
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    padding: 10px;
+    display: grid;
+    margin: 0px 20px;
+}
+
+.container-values-mission {
+    height: 40vh;
+    display: grid;
+    align-items: center;
+}
+
+.divider-about-us {
+    display: flex;
+    align-items: center;
+    margin: 0px 10px;
+}
+
+.card-about-us {
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.team-card {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    padding-bottom: 5px;
+    height: 100%;
+}
+
+@media (max-width: 768px) {
+    .divider-about-us {
+        display: none;
+    }
+    .container-values-mission {
+        height: auto;
+    }
+}

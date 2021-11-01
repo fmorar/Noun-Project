@@ -138,6 +138,14 @@
   text-align: center;
 }
 
+.text-right {
+  text-align: right;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
 .text-with-border {
   -webkit-text-stroke: 1px black;
   color: #fff;
@@ -182,5 +190,8 @@
   }
   .w-50-mobile {
     width: 50%;
+  }
+  .justify-content-center-mobile {
+    justify-content: center;
   }
 }
