@@ -89,7 +89,7 @@ const Footer = () => {
             Stay up to date
           </p>
           <div className='news-letter'>
-            <form>
+            <form name='submission' method='POST' netlify>
               <input placeholder='Your email adress'></input>
             </form>
           </div>
