@@ -43,12 +43,13 @@ const Footer = () => {
         <div  className='footer__grid-copy'>
           <div className='mb-small'>
             <Image src={logo} alt='Main Logo'/>
+            <p>NOUN PROJECT</p>
           </div>
           <div>
             <span className='d-block mb-small'>
               <Link href='/'>
                 <a className='link-clear'>
-                  Quality Policy | Privacy Policy Terms and Conditions
+                  Quality Policy | Privacy Policy | Terms and Conditions
                 </a>
               </Link>
             </span>

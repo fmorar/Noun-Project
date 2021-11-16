@@ -11,7 +11,7 @@ const Index = () => {
           <title>Home</title>
         </Head>
         <Hero page='landing' className='hero__title' spanTop='noun' text='project'/>
-        <Landing/>
+        <Landing />
       </Layout>
     </>
   )

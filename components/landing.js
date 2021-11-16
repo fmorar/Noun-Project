@@ -35,7 +35,7 @@ const Landing = () => {
       <ColTwo title='Design your business' text={text} src={ImageTools} alt='image' imageSpace='left' />
       <SectionBlack className='decoration-top-left-w decoration-top-right-w' title='Lets Work Together!' decoration={ImagePc} alt='computer image decoration'>
         <div className='d-flex justify-content-center'>
-          <Button className="mb-large btn btn-secondary btn-secondary--b" href="/" >
+          <Button className="mb-large btn btn-secondary btn-secondary--b" href="/contact-us" >
             CONTACT US
           </Button>
         </div>

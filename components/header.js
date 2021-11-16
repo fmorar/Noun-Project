@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link'
 import Button from './buttons';
 import Menu from '../components/menu'
-import logo from '../pages/images/social-dribbble.svg'
+import logo from '../pages/images/logo-ellipse.svg'
 import commerce from '../pages/images/commerce.svg'
 
 const Header = () => {
@@ -13,7 +13,7 @@ const Header = () => {
           <Link href={'/'}>
             <a className='link-clear header__logo'>
               <Image src={logo} alt='Picture of the author' />
-              Noun Project
+              <span className='header__logo-title'>NOUN PROJECT</span>
             </a>
           </Link>
         </div>
@@ -21,10 +21,10 @@ const Header = () => {
           <div className='header__actions-comm' >
             <Image src={commerce} alt='Picture of the author' />
           </div>
-          <div  className='header__actions-menu'>
+          <div className='header__actions-menu'>
             <Menu/>
           </div>
-          <Button className="btn btn--go btn-principal mobile-hide header__actions-cta" href="/">
+          <Button className="btn btn--go btn-principal mobile-hide header__actions-cta" href="/contact-us">
             Contact Us
           </Button>
         </div>

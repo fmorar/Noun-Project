@@ -54,28 +54,28 @@ const Menu = ({className}) => {
         <div className='menu-ham-wrapp'>
           <div className='menu-ham__icons'>
             <Image className='menu-ham__icons-comm'src={commerce} alt='Picture of the author' />
-            <Image  onClick={handleOpen} className={className} src={exit} alt='Main menu'/>
+            <Image onClick={handleOpen} className={className} src={exit} alt='Main menu'/>
           </div>
           <div className='menu-ham__items'>
             <Link href={'/'}>
               <a className='link-clear' onClick={handleOpen}>Home</a>
             </Link>
-            <Link href={'/style-guide'}>
+            <Link href={'/about-us'}>
               <a className='link-clear' onClick={handleOpen}>About Us</a>
             </Link>
-            <Link href={'/style-guide'}>
+            <Link href={'/contact-us'}>
               <a className='link-clear' onClick={handleOpen}>Contact Us</a>
             </Link>
-            <Link href={'/style-guide'}>
+            <Link href={'/join'}>
               <a className='link-clear' onClick={handleOpen}>Join</a>
             </Link>
-            <Link href={'/style-guide'}>
+            <Link href={'/services'}>
               <a className='link-clear' onClick={handleOpen}>Services</a>
             </Link>
-            <Link href={'/style-guide'}>
+            <Link href={'/shop'}>
               <a className='link-clear' onClick={handleOpen}>Shop</a>
             </Link>
-            <Link href={'/style-guide'}>
+            <Link href={'/our-work'}>
               <a className='link-clear' onClick={handleOpen}>Work</a>
             </Link>
           </div>

@@ -10,7 +10,7 @@ const ContactUs = () => {
         <Head>
           <title>Contact Us</title>
         </Head>
-        <Hero className='hero__title' spanBot='noun project' text='contact us'/>
+        <Hero id="contact-us" className='hero__title' spanBot='noun project' text='contact us'/>
         <Contact />
       </Layout>
     </>
